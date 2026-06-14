@@ -82,7 +82,7 @@ section{padding:clamp(70px,10vw,120px) 0}
 h2.heading{font-family:var(--serif);font-size:clamp(40px,6vw,72px);font-weight:600;line-height:1.05;letter-spacing:-0.01em;margin-bottom:24px;}
 h2.heading.light{color:var(--white)}
 h2.heading.dark{color:var(--navy)}
-.lead{font-size:clamp(16px,1.5vw,19px);line-height:1.85;font-weight:300;max-width:560px;opacity:0.6}
+.lead{font-size:clamp(16px,1.5vw,19px);line-height:1.85;font-weight:300;max-width:560px;opacity:0.8}
 .lead.light{color:var(--white)}
 .lead.dark{color:var(--navy)}
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:64px}
@@ -90,19 +90,19 @@ h2.heading.dark{color:var(--navy)}
 .stat-box{background:var(--navy-3);padding:40px 32px;text-align:center;transition:background 0.3s;}
 .stat-box:hover{background:var(--navy-4)}
 .stat-num{font-family:var(--serif);font-size:clamp(48px,6vw,72px);font-weight:700;line-height:1;color:var(--white);margin-bottom:8px;}
-.stat-label{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(200,216,236,0.4);font-weight:400}
-.about-quote-block{margin-top:40px;padding:28px 32px;border-left:2px solid rgba(200,216,236,0.2);background:rgba(200,216,236,0.04);}
-.about-quote-block p{font-family:var(--serif);font-size:clamp(17px,1.8vw,21px);font-style:italic;color:var(--ice-2);line-height:1.65;font-weight:300;}
-.about-quote-block cite{display:block;margin-top:14px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(200,216,236,0.35);font-style:normal;}
+.stat-label{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(200,216,236,0.75);font-weight:500}
+.about-quote-block{margin-top:40px;padding:28px 32px;border-left:2px solid rgba(200,216,236,0.3);background:rgba(200,216,236,0.06);}
+.about-quote-block p{font-family:var(--serif);font-size:clamp(17px,1.8vw,21px);font-style:italic;color:var(--ice-2);line-height:1.65;font-weight:400;}
+.about-quote-block cite{display:block;margin-top:14px;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(200,216,236,0.6);font-style:normal;}
 .schedule-note{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(200,216,236,0.15);padding:12px 20px;font-size:13px;color:rgba(200,216,236,0.5);margin-top:12px;margin-bottom:56px;}
-.timeline{position:relative;padding-left:48px;border-left:1px solid rgba(200,216,236,0.1);margin-left:6px;}
-.tl-item{position:relative;padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.04);display:grid;grid-template-columns:90px 1fr;gap:28px;align-items:start;}
+.timeline{position:relative;padding-left:48px;border-left:1px solid rgba(200,216,236,0.2);margin-left:6px;}
+.tl-item{position:relative;padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.07);display:grid;grid-template-columns:130px 1fr;gap:28px;align-items:start;}
 .tl-item:last-child{border-bottom:none}
-.tl-dot{position:absolute;left:-55px;top:36px;width:14px;height:14px;border-radius:50%;border:1px solid rgba(200,216,236,0.25);background:var(--navy-2);transition:all 0.3s;}
+.tl-dot{position:absolute;left:-55px;top:36px;width:14px;height:14px;border-radius:50%;border:1px solid rgba(200,216,236,0.4);background:var(--navy-2);transition:all 0.3s;}
 .tl-item:hover .tl-dot{background:var(--white);border-color:var(--white)}
-.tl-time{font-family:var(--serif);font-size:15px;font-weight:500;color:rgba(200,216,236,0.45);padding-top:3px;letter-spacing:0.04em;}
-.tl-title{font-family:var(--serif);font-size:clamp(19px,2.2vw,25px);font-weight:600;color:var(--white);margin-bottom:6px;line-height:1.2;}
-.tl-desc{font-size:15px;color:rgba(255,255,255,0.38);line-height:1.7;font-weight:300}
+.tl-time{font-family:var(--serif);font-size:17px;font-weight:600;color:rgba(200,216,236,0.7);padding-top:3px;letter-spacing:0.02em;}
+.tl-title{font-family:var(--serif);font-size:clamp(22px,2.5vw,30px);font-weight:600;color:var(--white);margin-bottom:10px;line-height:1.2;}
+.tl-desc{font-size:16px;color:rgba(255,255,255,0.7);line-height:1.8;font-weight:300}
 .tl-tag{display:inline-block;margin-top:10px;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;padding:3px 10px;font-weight:500;}
 .tag-a{background:rgba(200,216,236,0.08);color:rgba(200,216,236,0.5)}
 .tag-b{background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.25)}
@@ -113,9 +113,9 @@ h2.heading.dark{color:var(--navy)}
 .venue-cards{display:flex;flex-direction:column;gap:2px;background:rgba(200,216,236,0.06)}
 .venue-card{background:var(--navy-2);padding:22px 26px;display:flex;gap:18px;align-items:flex-start;transition:background 0.25s;}
 .venue-card:hover{background:var(--navy-3)}
-.venue-card-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(200,216,236,0.35);margin-bottom:6px}
+.venue-card-label{font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(200,216,236,0.65);margin-bottom:6px;font-weight:500}
 .venue-card-title{font-family:var(--serif);font-size:18px;font-weight:600;color:var(--white);margin-bottom:4px}
-.venue-card-body{font-size:14px;color:rgba(255,255,255,0.38);line-height:1.65;font-weight:300}
+.venue-card-body{font-size:15px;color:rgba(255,255,255,0.7);line-height:1.65;font-weight:300}
 .act-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:64px;background:rgba(200,216,236,0.08)}
 .act-card{background:var(--white);padding:44px 32px;position:relative;overflow:hidden;transition:background 0.3s;cursor:default;}
 .act-card:hover{background:var(--off)}
@@ -126,59 +126,59 @@ h2.heading.dark{color:var(--navy)}
 .act-icon{font-size:28px;margin-bottom:20px;display:block}
 .act-title{font-family:var(--serif);font-size:clamp(20px,2vw,26px);font-weight:600;color:var(--navy);margin-bottom:14px;line-height:1.2;position:relative;}
 .act-body{font-size:15px;color:#556;line-height:1.8;position:relative;font-weight:300}
-.people-subhead{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(200,216,236,0.25);border-bottom:1px solid rgba(200,216,236,0.07);padding-bottom:14px;margin-top:56px;margin-bottom:28px;}
+.people-subhead{font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(200,216,236,0.6);border-bottom:1px solid rgba(200,216,236,0.15);padding-bottom:14px;margin-top:56px;margin-bottom:28px;font-weight:500}
 .people-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(200,216,236,0.06)}
 .people-grid.g2{grid-template-columns:repeat(2,1fr);max-width:720px}
 .person{background:var(--navy-2);padding:32px 28px;transition:background 0.25s;}
 .person:hover{background:var(--navy-3)}
 .person-init{width:48px;height:48px;border-radius:50%;background:rgba(200,216,236,0.08);border:1px solid rgba(200,216,236,0.15);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:16px;font-weight:600;color:rgba(200,216,236,0.6);margin-bottom:18px;}
 .person-name{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--white);margin-bottom:4px}
-.person-role{font-size:12px;color:rgba(200,216,236,0.35);margin-bottom:12px;letter-spacing:0.04em}
-.person-bio{font-size:14px;color:rgba(255,255,255,0.35);line-height:1.7;font-weight:300}
+.person-role{font-size:13px;color:rgba(200,216,236,0.7);margin-bottom:12px;letter-spacing:0.04em;font-weight:400}
+.person-bio{font-size:15px;color:rgba(255,255,255,0.65);line-height:1.7;font-weight:300}
 .res-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:64px}
 .res-intro{grid-column:1/-1;background:var(--navy-3);padding:52px 48px;display:grid;grid-template-columns:1fr 1fr;gap:48px;border:1px solid rgba(200,216,236,0.06);}
 .res-intro-h{font-family:var(--serif);font-size:clamp(20px,2.5vw,28px);font-weight:600;color:var(--white);margin-bottom:14px;}
-.res-intro-p{font-size:15px;color:rgba(200,216,236,0.4);line-height:1.85;font-weight:300}
+.res-intro-p{font-size:16px;color:rgba(200,216,236,0.8);line-height:1.85;font-weight:300}
 .res-card{background:var(--navy-3);padding:32px 28px;border:1px solid rgba(200,216,236,0.06)}
-.res-card-title{font-family:var(--serif);font-size:22px;font-weight:600;color:var(--white);margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid rgba(200,216,236,0.08);}
+.res-card-title{font-family:var(--serif);font-size:22px;font-weight:600;color:var(--white);margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid rgba(200,216,236,0.12);}
 .res-list{list-style:none;display:flex;flex-direction:column;gap:13px}
-.res-list li{font-size:14px;color:rgba(200,216,236,0.45);line-height:1.65;font-weight:300;padding-left:20px;position:relative;}
-.res-list li::before{content:'—';position:absolute;left:0;color:rgba(200,216,236,0.2)}
+.res-list li{font-size:15px;color:rgba(200,216,236,0.8);line-height:1.65;font-weight:300;padding-left:20px;position:relative;}
+.res-list li::before{content:'—';position:absolute;left:0;color:rgba(200,216,236,0.4)}
 .reg-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:64px;margin-top:64px;align-items:start}
 .reg-block{display:flex;flex-direction:column;gap:24px}
-.reg-deadline{background:var(--navy-3);padding:36px 32px;border:1px solid rgba(200,216,236,0.07);position:relative;overflow:hidden;}
-.reg-deadline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--white);opacity:0.15}
-.reg-dl-tag{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(200,216,236,0.35);margin-bottom:8px}
+.reg-deadline{background:var(--navy-3);padding:36px 32px;border:1px solid rgba(200,216,236,0.1);position:relative;overflow:hidden;}
+.reg-deadline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--white);opacity:0.3}
+.reg-dl-tag{font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(200,216,236,0.65);margin-bottom:8px;font-weight:500}
 .reg-dl-type{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--white);margin-bottom:4px}
-.reg-dl-date{font-size:15px;color:rgba(200,216,236,0.45);font-weight:300}
-.reg-sep{height:1px;background:rgba(200,216,236,0.07);margin:18px 0}
-.reg-note{font-size:13px;color:rgba(200,216,236,0.28);font-style:italic;line-height:1.6}
-.reg-elig{background:var(--navy-3);padding:28px 32px;border:1px solid rgba(200,216,236,0.07)}
+.reg-dl-date{font-size:16px;color:rgba(200,216,236,0.8);font-weight:400}
+.reg-sep{height:1px;background:rgba(200,216,236,0.12);margin:18px 0}
+.reg-note{font-size:14px;color:rgba(200,216,236,0.6);font-style:italic;line-height:1.6}
+.reg-elig{background:var(--navy-3);padding:28px 32px;border:1px solid rgba(200,216,236,0.1)}
 .reg-elig-title{font-family:var(--serif);font-size:18px;font-weight:600;color:var(--white);margin-bottom:10px}
-.reg-elig-body{font-size:14px;color:rgba(200,216,236,0.4);line-height:1.75;font-weight:300}
-.reg-form-box{background:var(--navy-3);border:1px dashed rgba(200,216,236,0.15);min-height:520px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;text-align:center;padding:40px;}
-.reg-form-box svg{opacity:0.15}
-.reg-form-box p{font-size:15px;color:rgba(200,216,236,0.35);line-height:1.75;font-weight:300}
+.reg-elig-body{font-size:15px;color:rgba(200,216,236,0.8);line-height:1.75;font-weight:300}
+.reg-form-box{background:var(--navy-3);border:1px dashed rgba(200,216,236,0.2);min-height:520px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;text-align:center;padding:40px;}
+.reg-form-box svg{opacity:0.2}
+.reg-form-box p{font-size:15px;color:rgba(200,216,236,0.7);line-height:1.75;font-weight:300}
 .reg-form-box strong{color:var(--white);font-weight:500}
 .faq-list{margin-top:56px}
-.faq-item{border-bottom:1px solid rgba(200,216,236,0.07)}
+.faq-item{border-bottom:1px solid rgba(200,216,236,0.12)}
 .faq-q{padding:24px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-family:var(--serif);font-size:clamp(17px,2vw,22px);font-weight:600;color:var(--white);transition:opacity 0.2s;user-select:none;}
 .faq-q:hover{opacity:0.7}
-.faq-icon{font-size:20px;color:rgba(200,216,236,0.3);flex-shrink:0;margin-left:20px;transition:transform 0.3s,color 0.3s;}
+.faq-icon{font-size:20px;color:rgba(200,216,236,0.5);flex-shrink:0;margin-left:20px;transition:transform 0.3s,color 0.3s;}
 .faq-item.open .faq-icon{transform:rotate(45deg);color:var(--white)}
 .faq-a{max-height:0;overflow:hidden;transition:max-height 0.4s cubic-bezier(0.16,1,0.3,1)}
 .faq-item.open .faq-a{max-height:280px}
-.faq-a-inner{padding-bottom:24px;font-size:16px;color:rgba(200,216,236,0.45);line-height:1.85;font-weight:300}
+.faq-a-inner{padding-bottom:24px;font-size:16px;color:rgba(200,216,236,0.8);line-height:1.85;font-weight:300}
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:64px}
-.contact-email-link{display:inline-flex;align-items:center;gap:12px;font-family:var(--serif);font-size:clamp(18px,2.5vw,26px);font-weight:500;color:var(--white);text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.15);padding-bottom:6px;transition:border-color 0.2s,opacity 0.2s;margin-top:32px;}
+.contact-email-link{display:inline-flex;align-items:center;gap:12px;font-family:var(--serif);font-size:clamp(18px,2.5vw,26px);font-weight:500;color:var(--white);text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.3);padding-bottom:6px;transition:border-color 0.2s,opacity 0.2s;margin-top:32px;}
 .contact-email-link:hover{border-color:var(--white);opacity:0.75}
 .contact-cards{display:flex;flex-direction:column;gap:2px;background:rgba(200,216,236,0.06)}
 .contact-card{background:var(--navy-2);padding:22px 26px;display:flex;gap:18px;align-items:flex-start;}
-.contact-card-label{font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:rgba(200,216,236,0.3);margin-bottom:5px}
-.contact-card-val{font-size:14px;color:rgba(200,216,236,0.5);line-height:1.65;font-weight:300}
+.contact-card-label{font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:rgba(200,216,236,0.65);margin-bottom:5px;font-weight:500}
+.contact-card-val{font-size:15px;color:rgba(200,216,236,0.8);line-height:1.65;font-weight:300}
 footer{background:var(--navy);padding:48px var(--pad);border-top:1px solid rgba(200,216,236,0.06);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;}
 .footer-logo{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--white);letter-spacing:0.1em;text-transform:uppercase;opacity:0.6;}
-.footer-copy{font-size:12px;color:rgba(200,216,236,0.2);letter-spacing:0.06em}
+.footer-copy{font-size:12px;color:rgba(200,216,236,0.4);letter-spacing:0.06em}
 @media(max-width:900px){
   .nav-links{display:none}
   .about-grid,.venue-grid,.reg-grid,.contact-grid{grid-template-columns:1fr;gap:40px}
@@ -228,7 +228,7 @@ footer{background:var(--navy);padding:48px var(--pad);border-top:1px solid rgba(
   </svg>
   <div class="hero-content">
     <p class="hero-overline">Hwa Chong International School · Singapore · 2026</p>
-    <h1 class="hero-title">LAWCON</h1>
+    <h1 class="hero-title" style="font-size:clamp(52px,10vw,120px)">HCIS LAWCON</h1>
     <p class="hero-title-sub">Law Conference 2026</p>
     <div class="hero-pills">
       <div class="pill"><div class="pill-dot"></div>15 August 2026</div>
@@ -237,7 +237,7 @@ footer{background:var(--navy);padding:48px var(--pad);border-top:1px solid rgba(
       <div class="pill"><div class="pill-dot"></div>Ages 13 &amp; above</div>
     </div>
     <div class="hero-actions">
-      <a href="#register" class="btn-white">Register Now</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScTBr0IBlEkVwU1hMyv1BnvxeWfF-4FKMkMj1u4HkOHIKHSPg/viewform?usp=sharing&ouid=111591910550609755652" target="_blank" class="btn-white">Register Now</a>
       <a href="#about" class="btn-ghost">Discover More</a>
     </div>
   </div>
@@ -256,7 +256,7 @@ footer{background:var(--navy);padding:48px var(--pad);border-top:1px solid rgba(
         <p class="lead light">HCIS LAWCON is a student-led legal conference that immerses young minds in the world of law — through mock trials, expert panels, and direct mentorship from practising lawyers. Designed for students who are curious, articulate, and ready to argue.</p>
         <div class="about-quote-block">
           <p>"Future Lawyers is proud to support HCIS LAWCON — equipping the next generation with the legal literacy and advocacy skills our society needs."</p>
-          <cite>— Lucas Liu · President, Future Lawyers · Founding Member, HCI Law Society</cite>
+          <cite>— Future Lawyers</cite>
         </div>
       </div>
       <div>
@@ -275,43 +275,19 @@ footer{background:var(--navy);padding:48px var(--pad);border-top:1px solid rgba(
   <div class="inner">
     <div class="eyebrow light">Programme</div>
     <h2 class="heading light">Day at a Glance</h2>
-    <div class="schedule-note">⏳&nbsp; Full programme to be confirmed after our upcoming partner meeting. Watch this space.</div>
     <div class="timeline">
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-time">09:00</div>
-        <div><div class="tl-title">Registration &amp; Welcome</div><div class="tl-desc">Participants register on arrival, collect materials, and settle in for the day ahead.</div><span class="tl-tag tag-a">Opening</span></div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-time">TBC</div>
-        <div><div class="tl-title">Opening Address &amp; Keynote</div><div class="tl-desc">Welcome remarks and a keynote address by our distinguished guest speaker, Miss Edith Chen, Senior Lecturer at SUSS.</div><span class="tl-tag tag-a">Keynote</span></div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-time">TBC</div>
-        <div><div class="tl-title">Mock Trial — Session One</div><div class="tl-desc">Participants step into a simulated courtroom as counsel, witnesses, and adjudicators. Cases to be announced.</div><span class="tl-tag tag-a">Core Activity</span></div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-time">TBC</div>
-        <div><div class="tl-title">Lunch Break</div><div class="tl-desc">Catered lunch and networking with fellow participants and mentors.</div><span class="tl-tag tag-b">Break</span></div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-time">TBC</div>
-        <div><div class="tl-title">Mock Trial — Session Two</div><div class="tl-desc">Second round with judge deliberation and structured feedback from our panel of 10 lawyers.</div><span class="tl-tag tag-a">Core Activity</span></div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-time">TBC</div>
-        <div><div class="tl-title">Additional Sessions</div><div class="tl-desc">Further workshops and discussions — details pending confirmation from our partner law firm.</div><span class="tl-tag tag-b">To Be Confirmed</span></div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div class="tl-time">17:00</div>
-        <div><div class="tl-title">Closing Ceremony &amp; Dismissal</div><div class="tl-desc">Awards, closing remarks, and group photo.</div><span class="tl-tag tag-a">Closing</span></div>
-      </div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">9:00 am</div><div><div class="tl-title">Registration Opens</div><div class="tl-desc">Doors open. Collect your materials, find your seat, and get ready for the day ahead.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">9:00 – 9:30</div><div><div class="tl-title">Registration</div><div class="tl-desc">Complete check-in at the welcome desk. Please arrive on time to ensure a prompt start.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">9:30 – 10:15</div><div><div class="tl-title">Opening Ceremony &amp; GOH Speech</div><div class="tl-desc">Official welcome from the organising committee, followed by the Guest of Honour's keynote address on law, advocacy, and the importance of legal literacy for young people.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">10:15 – 10:30</div><div><div class="tl-title">Q&amp;A Session</div><div class="tl-desc">An open Q&amp;A with our Guest of Honour. Participants are encouraged to ask questions about the legal profession and what it takes to become an advocate.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">10:30 – 10:45</div><div><div class="tl-title">Movement to Court Rooms</div><div class="tl-desc">Teams make their way to their assigned courtroom. Marshals will guide participants to the correct venue.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">10:45 – 12:15</div><div><div class="tl-title">Court Room Session 1</div><div class="tl-desc">The first round of mock trials begins. Format: 1 courtroom, 5 vs 5. Both teams present their case, examine witnesses, and make closing arguments before a bench of practising lawyers.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">12:15 – 1:30</div><div><div class="tl-title">Lunch Break</div><div class="tl-desc">Catered lunch is provided. Use this time to debrief with your team, regroup, and prepare for the afternoon session.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">1:30 – 2:30</div><div><div class="tl-title">Court Room Session 2</div><div class="tl-desc">The second round of mock trials. Teams switch roles and continue building their advocacy under the watch of our adjudicator panel.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">2:30 – 3:00</div><div><div class="tl-title">Tea Break</div><div class="tl-desc">A short refreshment break before the final segment of the day.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">3:00 – 3:15</div><div><div class="tl-title">Team Feedback from Judges</div><div class="tl-desc">Judges deliver direct, structured feedback to each team — covering argumentation, courtroom presence, cross-examination technique, and overall advocacy.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">3:15 – 4:00</div><div><div class="tl-title">Movement to Student Hub</div><div class="tl-desc">All participants and guests make their way to the Student Hub for the closing ceremony.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-time">4:00 – 5:00</div><div><div class="tl-title">Closing Ceremony &amp; Prize Giving</div><div class="tl-desc">Awards are presented, closing remarks delivered, and the day is celebrated with a group photo.</div></div></div>
     </div>
   </div>
 </section>
@@ -350,7 +326,7 @@ footer{background:var(--navy);padding:48px var(--pad);border-top:1px solid rgba(
     <p class="lead dark">HCIS LAWCON is built around hands-on legal practice. A preview of what participants will experience — further details confirmed after our planning meeting.</p>
     <div class="act-grid">
       <div class="act-card"><div class="act-n">01</div><span class="act-icon">⚖️</span><div class="act-title">Mock Trials with Witnesses</div><div class="act-body">Step into a simulated courtroom as legal counsel, witness, or adjudicator. With a real case brief, argue, cross-examine, and present evidence — building persuasion and critical thinking under structured conditions.</div></div>
-      <div class="act-card"><div class="act-n">02</div><span class="act-icon">🏛️</span><div class="act-title">Expert Mentorship from Lawyers</div><div class="act-body">A panel of 10 practising lawyers — arranged by Lucas Liu of Future Lawyers — will serve as judges and mentors. Receive real-time feedback on your arguments, advocacy skills, and legal reasoning from legal professionals.</div></div>
+      <div class="act-card"><div class="act-n">02</div><span class="act-icon">🏛️</span><div class="act-title">Expert Mentorship from Lawyers</div><div class="act-body">A panel of 10 practising lawyers — arranged in partnership with Future Lawyers — will serve as judges and mentors. Receive real-time feedback on your arguments, advocacy skills, and legal reasoning from legal professionals.</div></div>
       <div class="act-card"><div class="act-n">03</div><span class="act-icon">📋</span><div class="act-title">More to be Announced</div><div class="act-body">Additional workshops and case discussions are being designed in partnership with our co-organising law firm. Full details will be released once the programme is finalised.</div></div>
     </div>
   </div>
@@ -360,27 +336,24 @@ footer{background:var(--navy);padding:48px var(--pad);border-top:1px solid rgba(
   <div class="inner">
     <div class="eyebrow light">Preparation</div>
     <h2 class="heading light">Academic Resources</h2>
-    <p class="lead light">Come prepared. Review these areas before the conference to get the most from your experience.</p>
-    <div class="res-grid">
-      <div class="res-intro">
-        <div><div class="res-intro-h">Introduction to Family Law</div><div class="res-intro-p">Family law governs legal relationships within families — marriage, divorce, custody, and inheritance. Singapore's Women's Charter and Administration of Muslim Law Act are key statutes. Understanding the basic principles will help you engage confidently in mock trials.</div></div>
-        <div><div class="res-intro-h">Key Legal Concepts</div><div class="res-intro-p">Participants should be familiar with: the structure of Singapore courts, the difference between civil and criminal law, how evidence is presented, the roles of counsel and witnesses, and what makes a compelling legal argument. A full prep guide will be distributed via email before the event.</div></div>
+    <p class="lead light">Familiarise yourself with these materials before the conference to get the most out of your experience.</p>
+    <div style="margin-top:56px;display:grid;grid-template-columns:1fr 1fr;gap:32px">
+      <div style="background:var(--navy-3);padding:48px 40px;border:1px solid rgba(200,216,236,0.06);grid-column:1/-1">
+        <div class="res-intro-h">Introduction to Family Law</div>
+        <div class="res-intro-p" style="margin-top:14px">Family law governs legal relationships within families — covering marriage, divorce, child custody, and inheritance. In Singapore, key statutes include the Women's Charter and the Administration of Muslim Law Act. You do not need to be an expert; a basic understanding of these principles will help you engage confidently in the mock trial and courtroom sessions at LAWCON.</div>
       </div>
-      <div class="res-card">
-        <div class="res-card-title">Essential Readings</div>
-        <ul class="res-list">
-          <li>Introduction to the Singapore Legal System — Singapore Academy of Law</li>
-          <li>Basics of Singapore Family Law — Women's Charter overview</li>
-          <li>How Courts Work — Structure and hierarchy of Singapore courts</li>
-          <li>Mock Trial Preparation Guide (distributed pre-event)</li>
-          <li>Case brief and fact patterns (released 1 week before LAWCON)</li>
-        </ul>
+      <div style="background:var(--navy-3);padding:40px;border:1px solid rgba(200,216,236,0.06);display:flex;flex-direction:column;align-items:flex-start;gap:20px">
+        <div>
+          <div class="res-intro-h">Case Brief</div>
+          <div class="res-intro-p" style="margin-top:12px">The official case brief for HCIS LAWCON 2026 will be released closer to the event. Click below to access it when available — read it carefully before the conference.</div>
+        </div>
+        <a href="#" onclick="alert('The case brief will be linked here once released. Check back closer to the event.');return false;" class="btn-ghost" style="margin-top:4px">📄 View Case Brief</a>
       </div>
-      <div class="res-card">
-        <div class="res-card-title">Skills to Practise</div>
-        <ul class="res-list">
+      <div style="background:var(--navy-3);padding:40px;border:1px solid rgba(200,216,236,0.06)">
+        <div class="res-intro-h">Skills to Practise</div>
+        <ul class="res-list" style="margin-top:16px">
           <li>Constructing a logical legal argument with evidence</li>
-          <li>Cross-examination technique — precise, purposeful questions</li>
+          <li>Cross-examination — asking precise, purposeful questions</li>
           <li>Active listening and responding under pressure</li>
           <li>Clear, confident oral advocacy and public speaking</li>
           <li>Reading and summarising legal documents quickly</li>
@@ -394,21 +367,74 @@ footer{background:var(--navy);padding:48px var(--pad);border-top:1px solid rgba(
   <div class="inner">
     <div class="eyebrow light">The Team</div>
     <h2 class="heading light">People Behind LAWCON</h2>
-    <div class="people-subhead">Guest Speakers &amp; Mentors</div>
-    <div class="people-grid g2">
-      <div class="person"><div class="person-init">EC</div><div class="person-name">Miss Edith Chen</div><div class="person-role">Senior Lecturer, SUSS</div><div class="person-bio">Our distinguished external speaker. Miss Chen brings extensive expertise in law and legal education. Her full write-up and photo will be featured in the conference handbook — details coming soon.</div></div>
-      <div class="person"><div class="person-init">LL</div><div class="person-name">Lucas Liu</div><div class="person-role">President, Future Lawyers · Founding Member, HCI Law Society</div><div class="person-bio">Mentor and guide for LAWCON 2026. Lucas brings a network of 10 practising lawyers to serve as judges and adjudicators, committed to nurturing legal talent from a young age.</div></div>
+
+    <div class="people-subhead">Guest of Honour</div>
+    <div style="background:rgba(200,216,236,0.06);padding:40px;display:flex;gap:40px;align-items:flex-start;max-width:780px">
+      <div style="flex-shrink:0;width:140px;height:160px;background:rgba(200,216,236,0.08);border:1px solid rgba(200,216,236,0.15);display:flex;align-items:center;justify-content:center;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.45);text-align:center;line-height:1.6;">Photo<br>Coming<br>Soon</div>
+      <div>
+        <div class="person-name" style="font-size:26px;margin-bottom:6px">Miss Edith Chen</div>
+        <div class="person-role" style="font-size:15px;margin-bottom:16px">Senior Lecturer, Singapore University of Social Sciences (SUSS)</div>
+        <div class="person-bio" style="font-size:15px;line-height:1.8">Miss Edith Chen is our distinguished Guest of Honour for HCIS LAWCON 2026. A Senior Lecturer at SUSS, she brings deep expertise in law and legal education. Miss Chen will deliver the opening keynote address and participate in a live Q&amp;A session with participants. Her full write-up will be featured in the conference handbook.</div>
+      </div>
     </div>
+
     <div class="people-subhead">Adjudicators</div>
-    <div class="people-grid" style="grid-template-columns:1fr;max-width:520px">
-      <div class="person"><div class="person-name">Panel of 10 Lawyers</div><div class="person-role" style="margin-bottom:12px">Arranged by Future Lawyers</div><div class="person-bio">Our adjudicator panel will comprise 10 practising legal professionals who will judge mock trial rounds and provide structured feedback. Full bios published closer to the event.</div></div>
+    <div style="background:rgba(200,216,236,0.06);padding:32px 36px;max-width:560px">
+      <div class="person-name" style="margin-bottom:6px">Panel of 10 Lawyers</div>
+      <div class="person-role" style="font-size:14px;margin-bottom:12px">Arranged by Future Lawyers</div>
+      <div class="person-bio" style="font-size:15px">Our adjudicator panel comprises 10 practising legal professionals arranged by Future Lawyers. They will judge mock trial rounds and provide structured feedback to all teams. Full bios will be published closer to the event.</div>
     </div>
+
     <div class="people-subhead">Organising Committee</div>
-    <div class="people-grid">
-      <div class="person"><div class="person-init">JA</div><div class="person-name">Janice</div><div class="person-role">Programme Lead</div><div class="person-bio">Overseeing the overall programme flow, timeline, and coordination with our partner law firm and guest speakers.</div></div>
-      <div class="person"><div class="person-init">CS</div><div class="person-name">Chaesung</div><div class="person-role">Registration &amp; Systems</div><div class="person-bio">Managing participant registration, forms, and payment processing for a smooth sign-up experience.</div></div>
-      <div class="person"><div class="person-init">AG</div><div class="person-name">Agnes</div><div class="person-role">Operations</div><div class="person-bio">Supporting day-of logistics, communications, and coordination to keep things running smoothly.</div></div>
+
+    <!-- Directors row -->
+    <div style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(200,216,236,0.5);margin-bottom:12px;font-weight:500">Leadership</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(200,216,236,0.06);margin-bottom:2px">
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Janice Sim</div><div class="person-role">Director</div></div>
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Celine Chua</div><div class="person-role">Vice Director</div></div>
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Timothy Tay</div><div class="person-role">Vice Director</div></div>
     </div>
+
+    <!-- Logistics row -->
+    <div style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(200,216,236,0.5);margin-top:24px;margin-bottom:12px;font-weight:500">Logistics</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(200,216,236,0.06);margin-bottom:2px">
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Kim Seungho</div><div class="person-role">Logistics Head</div></div>
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Dylan Tan</div><div class="person-role">Logistics Head</div></div>
+      <div class="person" style="background:transparent"></div>
+    </div>
+
+    <!-- Academics row -->
+    <div style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(200,216,236,0.5);margin-top:24px;margin-bottom:12px;font-weight:500">Academics</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(200,216,236,0.06);margin-bottom:2px">
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Kylee Lam</div><div class="person-role">Academics Head</div></div>
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Naya Singer</div><div class="person-role">Academics Head</div></div>
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Zhou Yue</div><div class="person-role">Academics Head</div></div>
+    </div>
+
+    <!-- PR row -->
+    <div style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(200,216,236,0.5);margin-top:24px;margin-bottom:12px;font-weight:500">Public Relations</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(200,216,236,0.06);margin-bottom:2px">
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Seth Liaw</div><div class="person-role">Public Relations Head</div></div>
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Shin Hyejeong</div><div class="person-role">Public Relations Head</div></div>
+      <div class="person" style="background:transparent"></div>
+    </div>
+
+    <!-- Publicity row -->
+    <div style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(200,216,236,0.5);margin-top:24px;margin-bottom:12px;font-weight:500">Publicity</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(200,216,236,0.06);margin-bottom:2px">
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Zhang Yuyi</div><div class="person-role">Publicity Head</div></div>
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Tomi Chan</div><div class="person-role">Publicity Head</div></div>
+      <div class="person" style="background:transparent"></div>
+    </div>
+
+    <!-- Finance row -->
+    <div style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(200,216,236,0.5);margin-top:24px;margin-bottom:12px;font-weight:500">Finance</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(200,216,236,0.06)">
+      <div class="person"><div style="width:100%;aspect-ratio:3/4;background:rgba(200,216,236,0.06);border:1px solid rgba(200,216,236,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(200,216,236,0.4);text-align:center;line-height:1.8">Photo<br>Coming<br>Soon</div><div class="person-name">Rachel Lim</div><div class="person-role">Finance</div></div>
+      <div class="person" style="background:transparent"></div>
+      <div class="person" style="background:transparent"></div>
+    </div>
+
   </div>
 </section>
 
@@ -437,12 +463,8 @@ footer{background:var(--navy);padding:48px var(--pad);border-top:1px solid rgba(
           <div class="reg-elig-body">You will receive a confirmation email with pre-reading materials and case briefs closer to the event. Mass emails go out from <strong>mid-June 2026</strong>.</div>
         </div>
       </div>
-      <div class="reg-form-box">
-        <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.2">
-          <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
-        </svg>
-        <p><strong>Registration Form</strong><br><br>The Google Form will be embedded here once it goes live. Watch your school email for the registration link from mid-June 2026.</p>
-        <a href="#contact" class="btn-ghost" style="margin-top:8px;color:var(--navy);border-color:rgba(5,17,31,0.25)">Contact for Enquiries</a>
+      <div style="background:var(--navy-3);border:1px solid rgba(200,216,236,0.07);overflow:hidden;">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTBr0IBlEkVwU1hMyv1BnvxeWfF-4FKMkMj1u4HkOHIKHSPg/viewform?embedded=true" width="100%" height="680" frameborder="0" marginheight="0" marginwidth="0" style="display:block;background:white;">Loading…</iframe>
       </div>
     </div>
   </div>
